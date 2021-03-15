@@ -130,7 +130,7 @@ const fruitBasket = [
 
 
 const updatebasketQuantity=(fruitBasket,id)=>fruitBasket.map((fruit)=>{if(fruit.id===id){
-  return{...fruit,quantity:fruit.quantity+1};
+  return{...fruit,quantity:fruit.quantity+1,};
 }
 });
-console.log(updatebasketQuantity(fruitBasket,1))
+console.log(updatebasketQuantity(fruitBasket,1));
