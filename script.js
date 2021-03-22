@@ -129,8 +129,27 @@ const fruitBasket = [
 // console.log(updatebasketQuantity(fruitBasket,1))
 
 
-const updatebasketQuantity=(fruitBasket,id)=>fruitBasket.map((fruit)=>{if(fruit.id===id){
-  return{...fruit,quantity:fruit.quantity+1,};
-}
-});
-console.log(updatebasketQuantity(fruitBasket,1));
+// const updatebasketQuantity=(fruitBasket,fruitid,icordec)=>fruitBasket.map((fruit)=>{if(fruit.id===fruitid){
+//   return{...fruit,quantity:fruit.quantity+1};
+ 
+  
+// }
+//  else{
+//     return {...fruit}
+//   }
+// });
+// console.log(updatebasketQuantity(fruitBasket,1));
+
+// const updatebasketQuantity=(fruit,fruitid,incordec)=>fruit.map((fruit)=>fruit.id===fruitid?{...fruit,quantity:incordec?fruit.quantity+1:fruit.quantity-1}:fruit)
+// console.log(updatebasketQuantity(fruitBasket,1,true));
+
+
+// const removeFromBAsket=(fruit,id)=> fruit.id!=id;
+// const filterFruit=fruitBasket.filter(removeFromBAsket)
+// console.log(filterFruit)
+// removeFromBAsket(fruitBasket,4)
+
+
+// const removeFromBasket=(fruit,id)=>fruit.filter(fruit=>fruit.id!=id)
+// console.log(removeFromBasket(fruitBasket,4))
+
